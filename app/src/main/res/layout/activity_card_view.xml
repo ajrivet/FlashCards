@@ -29,6 +29,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/progressBar"
             android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:text="Testing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testingTextView"
+            tools:text="testing"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textSize="56sp" />
+
+        <Button
+            android:text="fakeLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fakeLoginButton" />
     </FrameLayout>
 
 </FrameLayout>
